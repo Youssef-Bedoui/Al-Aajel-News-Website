@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/github.io/Al-Aajel-News-Website/static/css/main.ab369a4e.css",
-    "main.js": "/github.io/Al-Aajel-News-Website/static/js/main.bddefff5.js",
+    "main.js": "/github.io/Al-Aajel-News-Website/static/js/main.e18d3f8d.js",
     "static/media/liveNews.jpg": "/github.io/Al-Aajel-News-Website/static/media/liveNews.52c5111163a951a74418.jpg",
     "static/media/alfont_com_خط-فروتيجر-سميك-3.ttf": "/github.io/Al-Aajel-News-Website/static/media/alfont_com_خط-فروتيجر-سميك-3.d6711fd45546ad1f400f.ttf",
     "index.html": "/github.io/Al-Aajel-News-Website/index.html",
     "main.ab369a4e.css.map": "/github.io/Al-Aajel-News-Website/static/css/main.ab369a4e.css.map",
-    "main.bddefff5.js.map": "/github.io/Al-Aajel-News-Website/static/js/main.bddefff5.js.map"
+    "main.e18d3f8d.js.map": "/github.io/Al-Aajel-News-Website/static/js/main.e18d3f8d.js.map"
   },
   "entrypoints": [
     "static/css/main.ab369a4e.css",
-    "static/js/main.bddefff5.js"
+    "static/js/main.e18d3f8d.js"
   ]
 }
