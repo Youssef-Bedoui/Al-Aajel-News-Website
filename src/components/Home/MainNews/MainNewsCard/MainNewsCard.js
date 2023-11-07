@@ -13,7 +13,7 @@ function MainNewsCard({ data }) {
           />
         ) : (
           <img
-            src="/assets/images/main_logo_english.png"
+            src="assets/images/main_logo_english.png"
             alt="news"
             className="breaking_news_image"
           />

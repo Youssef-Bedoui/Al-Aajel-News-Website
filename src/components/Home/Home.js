@@ -8,8 +8,8 @@ function Home() {
   return (
     <div id="Home">
       <div className="top_news">
-      <MainNews />
-      <LiveVideo />
+        <MainNews />
+        <LiveVideo />
       </div>
       <HomeNews />
     </div>

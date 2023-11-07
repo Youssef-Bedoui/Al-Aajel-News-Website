@@ -5,12 +5,19 @@ function NewsCard({ article }) {
   const publishedAt = new Date(article.publishedAt).toLocaleDateString();
   console.log(article, "aticle");
   return (
-    <a href={article.url} className="news_article">
+    <a
+      href={article.url}
+      className="news_article"
+      target="_blank"
+      rel="noreferrer"
+      alt={article.title}
+      title={article.title}
+    >
       <div className="article_image">
         {article.urlToImage ? (
           <img src={article.urlToImage} alt="Source Logo" />
         ) : (
-          <img src="assets/images/main_logo_english.png" alt="Article" />  
+          <img src="assets/images/main_logo_english.png" alt="Article" />
         )}
       </div>
       <div className="article_info">
@@ -26,7 +33,7 @@ function NewsCard({ article }) {
           <h3>{article.title}</h3>
         </div>
         <div className="published_info">
-        <p className="published_label">Published at :</p>
+          <p className="published_label">Published at :</p>
           <span className="published_date">{publishedAt}</span>
         </div>
       </div>

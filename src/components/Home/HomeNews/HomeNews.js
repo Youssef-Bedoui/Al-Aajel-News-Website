@@ -15,7 +15,7 @@ function HomeNews() {
 
   return (
     <div className="homeNews">
-      <h3 className="main_news_title">المزيد من الأخبار حول العالم</h3>
+      <h3 className="main_news_title">More NEWS around the world</h3>
       <div className="world_news">
         {homeNews.map((article) => (
           <NewsCard article={article} />

@@ -10,8 +10,9 @@ function Navbar() {
       <NavLink className="menuNavNavLinkItem logo" to="/">
         <img
           className="logo_img"
-          src="/assets/images/main_logo_english.png"
+          src="assets/images/main_logo_english.png"
           alt="logo"
+          title="Al Aajel HomePage"
         />
       </NavLink>
       <div className="menu">

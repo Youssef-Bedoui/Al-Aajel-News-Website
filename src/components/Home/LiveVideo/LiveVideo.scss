@@ -3,7 +3,7 @@
   margin: 0 auto;
 
   height: calc(100vh - 90px);
-  
+
   iframe {
     height: 350px;
     width: 100%;
@@ -17,6 +17,21 @@
     align-items: center;
     .live_icon {
       margin-right: 10px;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+@media (max-width: 700px) {
+  .liveVideo {
+    width: 90%;
+    margin: 10px auto;
+    .video_title {
+      font-size: 20px;
+      .live_icon {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }

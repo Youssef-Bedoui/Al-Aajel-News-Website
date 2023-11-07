@@ -18,6 +18,13 @@ $mainColor: #d50032;
       width: 50px;
     }
   }
-  .breakingNews_sec{
+
+}
+@media (max-width: "700px") {
+  .mainNews {
+    width: 100%;
+    .breaking {
+      font-size: 20px;
+    }
   }
 }
