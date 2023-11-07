@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.scss";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Home from "./components/Home/Home.js";
+import LatestNews from "./components/News/News.js";
+import LiveNews from "./components/LiveNews/LiveNews";
+import Footer from "./components/Footer/Footer.js";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element=<Home /> />
+          <Route
+            path="/latestNews"
+            element={<LatestNews category="general" />}
+          />
+          <Route
+            path="/business"
+            element={<LatestNews category="business" />}
+          />
+          <Route
+            path="/entertainment"
+            element={<LatestNews category="entertainment" />}
+          />
+          <Route path="/health" element={<LatestNews category="health" />} />
+          <Route path="/science" element={<LatestNews category="science" />} />
+          <Route path="/sports" element={<LatestNews category="sports" />} />
+          <Route
+            path="/technology"
+            element={<LatestNews category="technology" />}
+          />
+          <Route path="/liveNews" element=<LiveNews /> />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

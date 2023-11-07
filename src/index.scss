@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Frutiger';
+  src: url('../public/assets/fonts/alfont_com_خط-فروتيجر-سميك-3.ttf') format('woff2'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Frutiger', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      background-color: #DCDBE2;
+      scroll-behavior: smooth;
+
+}

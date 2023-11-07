@@ -1,0 +1,152 @@
+$mainColor: #d50032;
+
+#liveChennels {
+  background-image: url("../../../public/assets/images/liveNews.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: calc(100vh - 80px);
+  margin-top: 0;
+  h2 {
+    margin: 0;
+    padding-left: 20px;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.308);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .tv_icon {
+      margin-left: 20px;
+      height: 60px;
+      width: 60px;
+    }
+  }
+  .category_filter {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    background-color: black;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 10px 20px;
+    margin-top: 0;
+    position: sticky;
+    top: 80px;
+    li {
+      &:hover {
+        cursor: pointer;
+        color: $mainColor;
+      }
+    }
+    .active {
+      color: $mainColor;
+      background-color: #d500322f;
+      padding: 10px;
+    }
+  }
+  .newsList {
+    .container {
+      width: 80%;
+      margin: 10px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0 20px;
+      .video_player {
+        iframe {
+          border-radius: 10px;
+          height: 160px;
+          width: 300px;
+        }
+      }
+      .video_title {
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        text-shadow: 2px 2px 5px #000000;
+        .live_icon {
+          margin-right: 10px;
+          height: 40px;
+          width: 40px;
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+@media (max-width: "1200px") {
+  #liveChennels {
+    h2 {
+      font-size: 20px;
+      .tv_icon {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .category_filter {
+      position: sticky;
+      top: 160px;
+      font-size: 14px;
+      gap: 20px;
+      li {
+        .active {
+          padding: 5px;
+        }
+      }
+    }
+    .newsList {
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .video_title {
+          font-size: 15px;
+          .live_icon{
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: "700px") {
+  #liveChennels {
+    h2 {
+      font-size: 20px;
+      .tv_icon {
+        height: 40px;
+        width: 40px;
+      }
+    }
+    .category_filter {
+      position: sticky;
+      top: 180px;
+      font-size: 14px;
+      gap: 20px;
+      li {
+        .active {
+          padding: 5px;
+        }
+      }
+    }
+    .newsList {
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        .video_title {
+          font-size: 15px;
+          .live_icon{
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+    }
+  }
+}

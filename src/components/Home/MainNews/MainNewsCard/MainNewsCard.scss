@@ -1,0 +1,48 @@
+$mainColor: #d50032;
+
+.newsCard {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 5px;
+    overflow: hidden;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+  &:hover .news_title {
+    text-decoration: underline !important;
+  }
+
+  .news_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; 
+
+    .breaking_news_image {
+      width: 30%;
+      height: 100%; 
+      object-fit: contain;
+    }
+
+    .news_title {
+      flex: 1;
+      max-height: 100px;
+      font-size: 15px;
+      color: black;
+      text-decoration: none;
+      margin-left: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+  .source{
+    position: absolute;
+    left: 35%;
+    top: -10px;
+    p{
+      font-size: 12px;
+      color: $mainColor;
+    }
+  }
+}

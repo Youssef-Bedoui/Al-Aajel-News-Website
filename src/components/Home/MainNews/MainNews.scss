@@ -1,0 +1,23 @@
+$mainColor: #d50032;
+
+.mainNews {
+  width: 50%;
+  height: calc(100vh - 80px);
+  margin: 0 auto;
+  overflow: hidden;
+  .breaking {
+    font-size: 35px;
+    text-align: right;
+    color: $mainColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 2px solid $mainColor;
+    .gif_pulse {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .breakingNews_sec{
+  }
+}

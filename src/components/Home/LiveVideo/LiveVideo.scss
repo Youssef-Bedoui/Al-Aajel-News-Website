@@ -1,0 +1,22 @@
+.liveVideo {
+  width: 40%;
+  margin: 0 auto;
+
+  height: calc(100vh - 90px);
+  
+  iframe {
+    height: 350px;
+    width: 100%;
+  }
+  .video_title {
+    text-align: left;
+    margin-right: 10px;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .live_icon {
+      margin-right: 10px;
+    }
+  }
+}

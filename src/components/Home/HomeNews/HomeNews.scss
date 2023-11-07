@@ -1,0 +1,15 @@
+.homeNews{
+    margin-top: 50px;
+    .main_news_title{
+        text-align: center;
+        font-size: 35px;
+    }
+    .world_news{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
