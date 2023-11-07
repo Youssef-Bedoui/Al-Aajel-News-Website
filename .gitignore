@@ -19,7 +19,6 @@
 .env.production.local
 #secret data
 config.json
-liveChennelsData.json
 
 npm-debug.log*
 yarn-debug.log*
