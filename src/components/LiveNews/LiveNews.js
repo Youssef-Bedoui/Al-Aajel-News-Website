@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./LiveNews.scss";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
-import liveChennelsData from "./liveChennelsData.json";
+import liveChennelsData from "./liveChannelsData.json";
 import { CiStreamOn } from "react-icons/ci";
 
 function LiveChannels() {

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "videoId": "gCNeDWCI0vo",
+    "name": "Al Jazeera English",
+    "category": "English"
+  },
+  {
+    "id": "2",
+    "videoId": "9Auq9mYxFEE",
+    "name": "Sky News",
+    "category": "English"
+  },
+  {
+    "id": "3",
+    "videoId": "61zzsDUDFX4",
+    "name": "CBS News",
+    "category": "English"
+  },
+  {
+    "id": "4",
+    "videoId": "tkDUSYHoKxE",
+    "name": "FRANCE 24 English",
+    "category": "English"
+  },
+  {
+    "id": "5",
+    "videoId": "1s64Di5FuqU",
+    "name": "NBC News NOW",
+    "category": "English"
+  },
+  {
+    "id": "6",
+    "videoId": "OOtxXPaQvoM",
+    "name": "ABC News",
+    "category": "English"
+  },
+  {
+    "id": "7",
+    "videoId": "pqabxBKzZ6M",
+    "name": "DW News",
+    "category": "English"
+  },
+  {
+    "id": "8",
+    "videoId": "pykpO5kQJ98",
+    "name": "Euronews English",
+    "category": "English"
+  },
+  {
+    "id": "9",
+    "videoId": "3bjjKwZRkWg",
+    "name": "BBC News",
+    "category": "English"
+  },
+  {
+    "id": "10",
+    "videoId": "gm-Ag7iMJnM",
+    "name": "CNN",
+    "category": "English"
+  },
+  {
+    "id": "11",
+    "videoId": "bNyUyrR0PHo",
+    "name": "Al Jazeera Arabic",
+    "category": "Arabic"
+  },
+  {
+    "id": "12",
+    "videoId": "eksOMqVMINo",
+    "name": "Al Jazeera Mubasher",
+    "category": "Arabic"
+  },
+  {
+    "id": "13",
+    "videoId": "5Nenmj6VYaA",
+    "name": "Al Hadath",
+    "category": "Arabic"
+  },
+  {
+    "id": "14",
+    "videoId": "HcC2lbmKH-Q",
+    "name": "Al Arabiya",
+    "category": "Arabic"
+  },
+  {
+    "id": "15",
+    "videoId": "Ep26j2v5cE4",
+    "name": "Al Mayadin",
+    "category": "Arabic"
+  },
+  {
+    "id": "16",
+    "videoId": "me1fBxx9wJY",
+    "name": "Sky News Arabic",
+    "category": "Arabic"
+  },
+  {
+    "id": "17",
+    "videoId": "VuYzy8IuT0Y",
+    "name": "TRT Arabic",
+    "category": "Arabic"
+  },
+  {
+    "id": "19",
+    "videoId": "l8PMl7tUDIE",
+    "name": "FRANCE 24",
+    "category": "French"
+  },
+  {
+    "id": "20",
+    "videoId": "Z-Nwo-ypKtM",
+    "name": "franceinfo",
+    "category": "French"
+  },
+  {
+    "id": "21",
+    "videoId": "NiRIbKwAejk",
+    "name": "euronews",
+    "category": "French"
+  }
+]
