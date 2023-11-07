@@ -9,7 +9,7 @@ import Footer from "./components/Footer/Footer.js";
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename={"/Al-Aajel-News-Website"}>
         <Navbar />
         <Routes>
           <Route path="/" exact element=<Home /> />
