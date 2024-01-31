@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import "./HomeNews.scss";
-import HomeNewsCard from "../../NewsCard/NewsCard";
 import { useDispatch, useSelector } from "react-redux";
 import { getHomeNews } from "../../../redux/features/newsSlice";
 import NewsCard from "../../NewsCard/NewsCard";

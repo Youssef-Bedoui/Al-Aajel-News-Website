@@ -3,6 +3,7 @@ import "./MainNews.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { getBreakingNews } from "../../../redux/features/newsSlice";
 import MainNewsCard from "./MainNewsCard/MainNewsCard";
+const pulse = require("../../../images/pulse_news.gif");
 
 function MainNews() {
   const dispatch = useDispatch();
@@ -17,12 +18,7 @@ function MainNews() {
   return (
     <div className="mainNews">
       <h3 className="breaking">
-        BREAKING NOW{" "}
-        <img
-          src="assets/images/pulse_news.gif"
-          className="gif_pulse"
-          alt="pulse_icon"
-        />
+        BREAKING NOW <img src={pulse} className="gif_pulse" alt="pulse_icon" />
       </h3>
       <section className="breakingNews_sec">
         {newsData.map((newsItem) => (

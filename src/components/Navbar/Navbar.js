@@ -2,15 +2,15 @@ import React from "react";
 import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
+const logo = require("../../images/main_logo_english.png");
 
 function Navbar() {
-
   return (
     <nav id="navbar">
       <NavLink className="menuNavNavLinkItem logo" to="/">
         <img
           className="logo_img"
-          src="assets/images/main_logo_english.png"
+          src={logo}
           alt="logo"
           title="Al Aajel HomePage"
         />
@@ -65,7 +65,6 @@ function Navbar() {
           LIVE NEWS
         </NavLink>
       </div>
-
     </nav>
   );
 }
